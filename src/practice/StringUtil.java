@@ -36,10 +36,16 @@ public class StringUtil {
         return strArray;
     }
 
-    // Retorna un String[] conteniendo los elementos de arr
+    // Retorna un int[] conteniendo los elementos de arr
     // representados como cadenas de caracteres
     public static int[] toIntArray(String arr[]) {
-        return null;
+        int[] intArray = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            intArray[i] = Integer.parseInt(arr[i]);
+        }
+
+        return intArray;
     }
 
     // Retorna la longitud del elemento con mayor cantidad
@@ -57,5 +63,6 @@ public class StringUtil {
     // Completa los elemento del arr agregando caracteres c
     // a la izquierda, dejando a todos con la longitud del mayor
     public static void lNormalize(String arr[], char c) {
+
     }
 }
