@@ -6,8 +6,7 @@ public class RadixSortClass {
     public static void radixSort(int []arr)
     {
         String strArr[] = StringUtil.toStringArray(arr);
-        int max = StringUtil.maxLength(strArr);
-
+        StringUtil.lNormalize(strArr, '0');
     }
 
     public static void main(String[] args)
