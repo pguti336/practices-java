@@ -6,7 +6,11 @@ public class StringUtil {
     // Retorna una cadena compuesta por n caracteres c
     // Ejemplo: replicate('x',5) ==> "xxxxx"
     public static String replicate(char c, int n) {
-        return "";
+        String str = "";
+        for (int i = 0; i < n; i++) {
+            str += c;
+        }
+        return str;
     }
 
     // Retorna una cadena de longitud n, compuesta por s

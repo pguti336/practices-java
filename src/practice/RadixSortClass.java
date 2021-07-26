@@ -7,7 +7,7 @@ public class RadixSortClass {
     {
         String strArr[] = StringUtil.toStringArray(arr);
         int max = StringUtil.maxLength(strArr);
-        System.out.println("max: " + max);
+
     }
 
     public static void main(String[] args)
