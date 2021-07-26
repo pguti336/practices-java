@@ -1,8 +1,5 @@
 package practice;
 
-import com.sun.tools.javac.util.ArrayUtils;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
