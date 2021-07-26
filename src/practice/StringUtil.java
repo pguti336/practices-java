@@ -1,7 +1,5 @@
 package practice;
 
-import java.util.Arrays;
-
 public class StringUtil {
     // Retorna una cadena compuesta por n caracteres c
     // Ejemplo: replicate('x',5) ==> "xxxxx"
