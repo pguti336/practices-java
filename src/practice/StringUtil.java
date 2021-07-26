@@ -18,7 +18,10 @@ public class StringUtil {
     // para completar la longitud mencionada
     // Ejemplo lpad("5",3,'0') ==> "005"
     public static String lpad(String s, int n, char c) {
-        return "";
+        if(s.length() < n) {
+            return replicate(c, n - s.length()) + s;
+        }
+        return s;
     }
 
     // Retorna un String[] conteniendo los elementos de arr
