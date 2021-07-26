@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Arrays;
 
-public class RadixSortClass {
+public class RadixSort {
     public static void radixSort(int []arr)
     {
         String strArr[] = StringUtil.toStringArray(arr);
